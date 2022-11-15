@@ -242,6 +242,7 @@ Enable guest agent support in Proxmox `VM (1024) -> Hardware -> Memory`
 ### VM
 ```sh
 sudo apk add qemu-guest-agent
+sudo rc-update add qemu-guest-agent default
 ```
 
 ### Proxmox
